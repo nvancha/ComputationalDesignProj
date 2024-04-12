@@ -37,9 +37,12 @@ The user interface provides the following controls:
 5. Monitor the optimization progress in the output window.
 6. Reset the furniture locations and rerun the optimization if needed.
 
+
 ## Notes
 - The optimization algorithm and all the other features are implemented in "sample.cpp".
 - The optimization algorithm uses the Metropolis-Hastings algorithm to find a suitable configuration.
 - The cost function includes pairwise distance and angle costs.
 - The optimization can be stopped at any time by unchecking the "Optimize Furniture Locations" checkbox.
-- I have implement all the features except the functionality to output the cost values to a text file in a csv format. 
+- I have implement all the features except the functionality to output the cost values to a text file in a csv format.
+
+## Created by Nipuna Vancha and Varun Kumar
